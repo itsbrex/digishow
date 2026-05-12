@@ -1,0 +1,142 @@
+{
+    "appInfo": {
+        "appExperimental": true,
+        "appName": "DigiShow LINK",
+        "appVersion": "1.7.4"
+    },
+    "cuePlayers": {
+    },
+    "interfaces": [
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "aplay1",
+            "type": "aplay"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "metronome1",
+            "type": "metronome"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "hotkey1",
+            "type": "hotkey"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "",
+            "name": "launch1",
+            "type": "launch"
+        },
+        {
+            "endpoints": [
+            ],
+            "mode": "local",
+            "name": "pipe1",
+            "type": "pipe"
+        },
+        {
+            "endpoints": [
+                {
+                    "channel": 0,
+                    "control": 20,
+                    "enabled": true,
+                    "name": "control1",
+                    "type": "control"
+                },
+                {
+                    "channel": 0,
+                    "control": 21,
+                    "enabled": true,
+                    "name": "control2",
+                    "type": "control"
+                },
+                {
+                    "channel": 0,
+                    "control": 22,
+                    "enabled": true,
+                    "name": "control3",
+                    "type": "control"
+                },
+                {
+                    "channel": 0,
+                    "control": 23,
+                    "enabled": true,
+                    "name": "control4",
+                    "type": "control"
+                },
+                {
+                    "channel": 0,
+                    "control": 24,
+                    "enabled": true,
+                    "name": "control5",
+                    "type": "control"
+                },
+                {
+                    "channel": 0,
+                    "control": 25,
+                    "enabled": true,
+                    "name": "control6",
+                    "type": "control"
+                }
+            ],
+            "mode": "output",
+            "name": "midi1",
+            "outputInterval": 20,
+            "port": "CC Pixels",
+            "type": "midi"
+        }
+    ],
+    "launches": {
+    },
+    "metronome": {
+        "bpm": 120,
+        "link": false,
+        "quantum": 4,
+        "run": false,
+        "sound": false
+    },
+    "remoteWeb": {
+        "port": 8888,
+        "run": false
+    },
+    "slots": [
+        {
+            "destination": "midi1/control1",
+            "linked": true,
+            "title": "CC 20 - Brightness"
+        },
+        {
+            "destination": "midi1/control2",
+            "linked": true,
+            "title": "CC 21 - Speed"
+        },
+        {
+            "destination": "midi1/control3",
+            "linked": true,
+            "title": "CC 22 - Color R"
+        },
+        {
+            "destination": "midi1/control4",
+            "linked": true,
+            "title": "CC 23 - Color G"
+        },
+        {
+            "destination": "midi1/control5",
+            "linked": true,
+            "title": "CC 24 - Color B"
+        },
+        {
+            "destination": "midi1/control6",
+            "linked": true,
+            "title": "CC 25 - FX Mode"
+        }
+    ]
+}
