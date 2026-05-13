@@ -86,7 +86,7 @@ Aladdin Micro paired with DigiShow software allows you to convert industrial-gra
 
 1. Connect Aladdin Micro to your computer via USB
 2. Search and install **DigiShow RIOC** via Arduino IDE Library Manager
-3. Open the example: `DigiShow RIOC / ArduinoRioc`
+3. Open the example: `DigiShow RIOC / RiocArduino`
 4. Select board type **Arduino Micro** and upload the sketch
 5. In DigiShow software's Interface Manager, create a new Arduino interface, select **Aladdin Micro** as the model, and set the serial port to **Auto**
 
